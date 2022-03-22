@@ -10,6 +10,7 @@ CREATE TABLE users (
   micropub_response TEXT,
   micropub_slug_field TEXT default 'mp-slug',
   micropub_syndicate_field TEXT default 'mp-syndicate-to',
+  micropub_optin_html_content INTEGER default 0,
   micropub_success INTEGER default 0,
   date_created datetime,
   last_login datetime,
